@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_life cycle</string>
+	<string>ys_Event response</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - life cycle</string>
+	<string>#pragma mark - Event response</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9677B65F-53F8-4805-86B7-BFB75D4FBA70</string>
+	<string>D4854A30-AC12-420B-B64E-F75C6F6D7E5F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>life cycle</string>
+	<string>Event response</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>life cycle</string>
+	<string>Event response</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

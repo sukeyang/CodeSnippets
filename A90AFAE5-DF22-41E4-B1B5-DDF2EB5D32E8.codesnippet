@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_life cycle</string>
+	<string>ys_ NetWork</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - life cycle</string>
+	<string>#pragma mark - NetWork</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9677B65F-53F8-4805-86B7-BFB75D4FBA70</string>
+	<string>A90AFAE5-DF22-41E4-B1B5-DDF2EB5D32E8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>life cycle</string>
+	<string>NetWork</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>life cycle</string>
+	<string>NetWork</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
