@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_ NSAssert</string>
+	<string>ys_ PrivateMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSAssert(theDate != nil, @"Argument must be non-nil");</string>
+	<string>#pragma mark - PrivateMethod</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>215BB84B-F400-422D-81B3-EB684BCDCA2E</string>
+	<string>B628BE0D-3B5D-47BB-8802-D5AB00CC847F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSAssert</string>
+	<string>PrivateMethod</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSAssert</string>
+	<string>PrivateMethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

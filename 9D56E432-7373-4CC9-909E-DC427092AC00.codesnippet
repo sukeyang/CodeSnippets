@@ -4,19 +4,23 @@
 <dict>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - NetWork</string>
+	<string>typedef NS_ENUM(NSInteger, UITableViewCellSeparatorStyle) {
+    UITableViewCellSeparatorStyleNone,
+    UITableViewCellSeparatorStyleSingleLine,
+    UITableViewCellSeparatorStyleSingleLineEtched   // This separator style is only supported for grouped style table views currently
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BE39D3E5-0E2E-4532-8C76-FC496D246129</string>
+	<string>9D56E432-7373-4CC9-909E-DC427092AC00</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

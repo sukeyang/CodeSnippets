@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_ PrivateMethod</string>
+	<string>ys_type</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - PrivateMethod</string>
+	<string>typedef NS_ENUM(NSInteger, type) {
+    type1,
+    type2,
+    type2
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2B2E50B8-C790-47A6-9C5D-254ADABFB5EE</string>
+	<string>6EECC72E-8DFC-4B53-B256-76AF9433F932</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>PrivateMethod</string>
+	<string>typedef</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>PrivateMethod</string>
+	<string>typedef</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -2,22 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_ NSAssert</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSAssert(theDate != nil, @"Argument must be non-nil");</string>
+	<string>#pragma mark - PrivateMethod</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>215BB84B-F400-422D-81B3-EB684BCDCA2E</string>
+	<string>44D679D6-90C1-4AB4-9E2C-FC52B62F2497</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>NSAssert</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSAssert</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
