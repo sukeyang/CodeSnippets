@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cell-show</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellName = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellName];
+    if (!cell)
+    {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellName];
+    }
+    
+    if (_dataArray.count &lt;10)
+    {
+        cell.textLabel.text = ((CountyItem*)[_searchArray objectAtIndex:indexPath.row]).CountyFullName;
+    }
+    else
+    {
+       cell.textLabel.text =( (CountyItem*)[[_dataArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row]).CountyFullName;
+    }
+    return cell;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D2051D34-EE87-4B72-85DB-10132C4CE8BB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tableviecell</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My Code Snippet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
