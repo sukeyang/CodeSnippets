@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_init</string>
+	<string>ys_ strongSelf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(id)init
-{
-    self = [super init];
-    if (self)
-    {
-        
-    }
-    return self;
-}</string>
+	<string> __strong __typeof(weakSelf)strongSelf = weakSelf;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1A7CF2F8-E406-4621-B55F-57836D0A036D</string>
+	<string>F1E72F04-D5DB-4291-A923-527ACDECE253</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>strongSelf</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>strongSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
