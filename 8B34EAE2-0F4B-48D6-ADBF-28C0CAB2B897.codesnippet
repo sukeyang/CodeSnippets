@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> UIButton *keyBordButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    keyBordButton.frame = CGRectMake(0, 0, kDeviceWidth, kDeviceHeight);
+    keyBordButton.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:keyBordButton];
+    [keyBordButton addTarget:self action:@selector(btnClickHiden:) forControlEvents:UIControlEventTouchUpInside];
+    keyBordButton.hidden = YES;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8B34EAE2-0F4B-48D6-ADBF-28C0CAB2B897</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ys_button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ys_button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

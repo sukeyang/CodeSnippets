@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_Frontsize</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    float kContentWeight = kDeviceWidth-2*leftMargin;
+    NSString *foorString = self.m_superDic[@"content"];
+    UIFont *front = [UIFont fontWithName:@"Arial-BoldMT" size:22];
+    CGSize size = [Common sizeForAllString:foorString andUIFont:front andWight:kContentWeight];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>400F9488-1B84-41C6-A6AE-78DBF2D8733D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ys_Frontsize</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ys_Frontsize</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
