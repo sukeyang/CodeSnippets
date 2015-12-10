@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_transformScal</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  CABasicAnimation *animationGroup= [CABasicAnimation animationWithKeyPath:@"transform.scale"];
+    animationGroup.toValue = [NSNumber numberWithDouble:3];
+    animationGroup.duration = 4;
+    //你可以通过设置动画的 fillMode 属性为 kCAFillModeForward 以留在最终状态，并设置removedOnCompletion 为 NO 以防止它被自动移除：
+    animationGroup.fillMode = kCAFillModeForwards;
+    animationGroup.removedOnCompletion = NO;    animationGroup.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+      animationGroup.beginTime =  [titleLabel.layer convertTime:CACurrentMediaTime() fromLayer:nil] + 2.0;;//两秒后开始执行
+    [titleLabel.layer addAnimation:animationGroup forKey:@"handler"];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>07B92FE1-A39D-463A-B652-BBDDCBFC19B5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>transform.scal</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>transform.scal</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
