@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_cellSelec</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated
+{
+   [super setHighlighted:highlighted animated:animated];
+    m_imageView.backgroundColor = [CommonImage colorWithHexString:Color_Nav];
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+{
+    [super setSelected:selected animated:animated];
+    m_imageView.backgroundColor = [CommonImage colorWithHexString:Color_Nav];
+    // Configure the view for the selected state
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9925E801-1C4D-4A92-B1A5-3A7295C196E7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>selectState{
+   [super setHighlighted:highlighted animated:animated];
+    m_imageView.backgroundColor = [CommonImage colorWithHexString:Color_Nav];
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+{
+    [super setSelected:selected animated:animated];
+    m_imageView.backgroundColor = [CommonImage colorWithHexString:Color_Nav];
+    // Configure the view for the selected state
+}</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>selectState</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
