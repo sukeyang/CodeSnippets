@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sw_button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>       quickLoginBtn = UIButton()
+        quickLoginBtn.setTitle("无账号快捷登录", forState: .Normal)
+        quickLoginBtn.titleLabel?.sizeToFit()
+        quickLoginBtn.contentMode = .Right
+        let quickW: CGFloat = quickLoginBtn.titleLabel!.width
+        quickLoginBtn.frame = CGRectMake(AppWidth - quickW - 10, CGRectGetMaxY(loginImageView.frame) + 10, quickW, 30)
+        quickLoginBtn.titleLabel?.font = UIFont.systemFontOfSize(14)
+        quickLoginBtn.addTarget(self, action: "quickLoginClick", forControlEvents: .TouchUpInside)
+        quickLoginBtn.setTitle("无账号快捷登录", forState: .Normal)
+        quickLoginBtn.setTitleColor(textCoclor, forState: .Normal)
+        quickLoginBtn.setTitleColor(UIColor.lightGrayColor(), forState: .Highlighted)
+        backScrollView.addSubview(quickLoginBtn)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C17D5021-5595-46DD-8C7C-FB4DEF7BCCDA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>sw_button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>sw_button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

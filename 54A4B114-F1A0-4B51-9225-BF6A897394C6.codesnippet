@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sw_ScrollView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>     backScrollView = UIScrollView(frame: view.bounds)
+        backScrollView.backgroundColor = theme.SDWebViewBacagroundColor
+        backScrollView.alwaysBounceVertical = true
+        let tap = UITapGestureRecognizer(target: self, action: "backScrollViewTap")
+        backScrollView.addGestureRecognizer(tap)
+        view.addSubview(backScrollView)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>54A4B114-F1A0-4B51-9225-BF6A897394C6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>sw_ScrollView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>sw_ScrollView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

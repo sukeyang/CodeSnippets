@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sw_label</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    let loginLabel = UILabel(frame: loginImageView.bounds)
+        loginLabel.text = "登  录"
+        loginLabel.textAlignment = .Center
+        loginLabel.textColor = textCoclor
+        loginLabel.font = UIFont.systemFontOfSize(22)
+        loginImageView.addSubview(loginLabel)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6C00C1DB-C26C-4D3A-8D45-6AD15751112A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>sw_label</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>sw_label</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
