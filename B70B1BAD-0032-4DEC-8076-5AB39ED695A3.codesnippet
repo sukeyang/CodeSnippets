@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_asynch</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)asynch
+{
+    //串行队列 一个进程任务中只能有一个线程          内容，默认null
+    dispatch_queue_t queue = dispatch_queue_create("com.yang", NULL);//串行 自己创建需要自己释放；
+    //并发队列 一个进程任务中可以有多个线程   获取一个全局队列  优先级，默认0；
+    //  dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_async(queue, ^{
+        //主线程                 创建主线程
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self handleData];
+        });
+    });
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B70B1BAD-0032-4DEC-8076-5AB39ED695A3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ys_asynch</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ys_asynch</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

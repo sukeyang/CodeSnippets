@@ -3,32 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_dispatch_queue_t</string>
+	<string>ys_longPress</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    //串行队列
-    dispatch_queue_t queueS = dispatch_queue_create("com.kangxun", DISPATCH_QUEUE_SERIAL);
-    //并行队列
-    dispatch_queue_t queueC = dispatch_queue_create("com.kangxun", DISPATCH_QUEUE_CONCURRENT);
-    dispatch_queue_t queueGlobe = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    dispatch_async(queueS, ^{
+	<string>   UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithActionBlock:^(UILongPressGestureRecognizer * sender) {
         
-        dispatch_async(dispatch_get_main_queue(), ^{
-            
-        });
-        
-    });</string>
+    }];
+    [headerView addGestureRecognizer:longPress];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>55853585-3832-4DFA-A995-2B105111929E</string>
+	<string>3475C815-2675-427E-A22A-9DAE4C5677D0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ys_dispatch_queue_t</string>
+	<string>ys_longPress</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ys_dispatch_queue_t</string>
+	<string>ys_longPress</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
