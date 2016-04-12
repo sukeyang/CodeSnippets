@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_NSRegularExpression</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>     NSRegularExpression *customEmojiRegularExpression = [[NSRegularExpression alloc] initWithPattern:@"" options:NSRegularExpressionCaseInsensitive error:nil];
+    NSArray *matchs = [customEmojiRegularExpression matchesInString:responseString options:NSMatchingWithTransparentBounds range:NSMakeRange(0, responseString.length)];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F51E416B-697A-4AE9-AABF-5288E324F5F4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ys_NSRegularExpression</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ys_NSRegularExpression</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
