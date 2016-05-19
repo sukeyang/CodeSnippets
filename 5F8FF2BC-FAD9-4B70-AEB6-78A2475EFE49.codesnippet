@@ -3,28 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_debug</string>
+	<string>ys_lazyView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef  KrunDebug
-    [self stopAudio];
-#else
-    [self endBackGroundTask:YES];
-#endif</string>
+	<string>-(UIView *)m_praiseView
+{
+    if (_m_praiseView) {
+        return _m_praiseView;
+    }
+    _m_praiseView = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, kDeviceWidth, 150)] autorelease];
+    return _m_praiseView;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6F89B24E-93E8-4568-B853-DA9AAFA335B5</string>
+	<string>5F8FF2BC-FAD9-4B70-AEB6-78A2475EFE49</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ys_debug</string>
+	<string>ys_lazyView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ys_debug</string>
+	<string>ys_lazyView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
