@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef  KrunDebug
+	<string>#ifdef  KXDEBUG
     [self stopAudio];
 #else
     [self endBackGroundTask:YES];
