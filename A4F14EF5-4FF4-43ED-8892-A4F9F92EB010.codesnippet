@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_alert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(void)showAlertView{
+    
+    [UIAlertView showWithTitle:@"提示" message:@"确定放弃原来的计划吗?" cancelButtonTitle:@"取消" otherButtonTitles:@[@"确定"] tapBlock:^(UIAlertView * _Nonnull alertView, NSInteger buttonIndex) {
+        if (buttonIndex == [alertView cancelButtonIndex]) {
+            NSLog(@"Cancelled");
+        } else if ([[alertView buttonTitleAtIndex:buttonIndex] isEqualToString:@"确定"]) {
+            NSLog(@"Have a cold beer");
+      
+        } else if ([[alertView buttonTitleAtIndex:buttonIndex] isEqualToString:@"Wine"]) {
+            NSLog(@"Have a glass of chardonnay");
+        }
+    }];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A4F14EF5-4FF4-43ED-8892-A4F9F92EB010</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ys_alert</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ys_alert</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
