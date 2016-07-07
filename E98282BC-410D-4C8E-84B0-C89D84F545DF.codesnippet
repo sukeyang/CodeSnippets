@@ -7,8 +7,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (void)load
-{
+	<string>+ (void)load {
     __block id observer =
     [[NSNotificationCenter defaultCenter]
      addObserverForName:UIApplicationDidFinishLaunchingNotification
@@ -20,11 +19,9 @@
      }];
 }
 
-+(void)setup
-{
++(void)setup {
     NSLog(@"-------JSPatchManager-");
-    [JSPatch startWithAppKey:kJspatchKey];
-    [JSPatch sync];
+
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E98282BC-410D-4C8E-84B0-C89D84F545DF</string>

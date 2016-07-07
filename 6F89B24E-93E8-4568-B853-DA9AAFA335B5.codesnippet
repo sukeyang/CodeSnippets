@@ -9,10 +9,10 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef  KXDEBUG
-    [self stopAudio];
+	<string>#ifdef  DEBUG
+
 #else
-    [self endBackGroundTask:YES];
+   
 #endif</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6F89B24E-93E8-4568-B853-DA9AAFA335B5</string>

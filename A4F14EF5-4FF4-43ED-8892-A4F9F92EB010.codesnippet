@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(void)showAlertView{
+	<string>- (void)showAlertView {
     
     [UIAlertView showWithTitle:@"提示" message:@"确定放弃原来的计划吗?" cancelButtonTitle:@"取消" otherButtonTitles:@[@"确定"] tapBlock:^(UIAlertView * _Nonnull alertView, NSInteger buttonIndex) {
         if (buttonIndex == [alertView cancelButtonIndex]) {

@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(UIView *)m_praiseView
-{
+	<string>- (UIView *)m_praiseView {
     if (_m_praiseView) {
         return _m_praiseView;
     }

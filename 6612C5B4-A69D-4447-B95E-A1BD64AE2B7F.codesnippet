@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(void)fillDataToView
-{
+	<string>- (void)fillDataToView {
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

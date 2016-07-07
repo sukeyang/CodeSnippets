@@ -9,9 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(void)dealloc
-{
-    [super dealloc];
+	<string>- (void)dealloc {
+   
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>18403243-7C03-4221-9EF0-FAFEDC5E3A27</string>

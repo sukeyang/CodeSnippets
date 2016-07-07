@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)asynch
-{
+	<string>- (void)asynch {
     //串行队列 一个进程任务中只能有一个线程          内容，默认null
     dispatch_queue_t queue = dispatch_queue_create("com.yang", NULL);//串行 自己创建需要自己释放；
     //并发队列 一个进程任务中可以有多个线程   获取一个全局队列  优先级，默认0；
