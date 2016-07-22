@@ -9,11 +9,9 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(id)init
-{
+	<string>- (id)init {
     self = [super init];
-    if (self)
-    {
+    if (self) {
         
     }
     return self;
