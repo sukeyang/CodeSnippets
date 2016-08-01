@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_strongSelf</string>
+	<string>ys_releaseInstance</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@strongify(self);</string>
+	<string>+ (void)attempDealloc {
+    onceToken = 0; // 只有置成0,GCD才会认为它从未执行过.它默认为0.这样才能保证下次再次调用shareInstance的时候,再次创建对象.
+    class = nil;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F1E72F04-D5DB-4291-A923-527ACDECE253</string>
+	<string>0C21ED49-AB74-4C82-9F0B-C0DC850918D1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ys_strongSelf</string>
+	<string>ys_releaseInstance</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ys_strongSelf</string>
+	<string>ys_releaseInstance</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
