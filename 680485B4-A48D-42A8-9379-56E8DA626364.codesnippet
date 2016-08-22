@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_encode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)encodeWithCoder:(NSCoder *)coder {
+    [coder encodeObject:self.wordVoice forKey:@"wordVoice"];
+    [coder encodeObject:self.speakingVoice forKey:@"speakingVoice"];
+    [coder encodeObject:self.phonogramVoice forKey:@"phonogramVoice"];
+    [coder encodeObject:self.CTE46 forKey:@"CTE46"];
+    [coder encodeObject:self.sentenceInfo forKey:@"sentenceInfo"];
+    
+    [coder encodeObject:self.wordInfo forKey:@"wordInfo"];
+    [coder encodeObject:self.recommendWord forKey:@"recommendWord"];
+    [coder encodeObject:self.backWordVoice forKey:@"backWordVoice"];
+    [coder encodeObject:self.AMWordVoice forKey:@"AMWordVoice"];
+    [coder encodeObject:self.ENWordVoice forKey:@"ENWordVoice"];
+}
+
+- (id)initWithCoder:(NSCoder *)coder {
+    if (self = [super init]) {
+        self.wordVoice = [coder decodeObjectForKey:@"wordVoice"];
+        self.speakingVoice = [coder decodeObjectForKey:@"speakingVoice"];
+        self.phonogramVoice = [coder decodeObjectForKey:@"phonogramVoice"];
+        self.CTE46 = [coder decodeObjectForKey:@"CTE46"];
+        self.sentenceInfo = [coder decodeObjectForKey:@"sentenceInfo"];
+        
+        self.wordInfo = [coder decodeObjectForKey:@"wordInfo"];
+        self.recommendWord = [coder decodeObjectForKey:@"recommendWord"];
+        self.backWordVoice = [coder decodeObjectForKey:@"backWordVoice"];
+        self.AMWordVoice = [coder decodeObjectForKey:@"AMWordVoice"];
+        self.ENWordVoice = [coder decodeObjectForKey:@"ENWordVoice"];
+    }
+    return self;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>680485B4-A48D-42A8-9379-56E8DA626364</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ys_encode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ys_encode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
