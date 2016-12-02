@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_alertView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@weakify(self);
+[UIAlertView showWithTitle:@"提示" message:@"设备维修数量与报修数量不符，是否继续？" cancelButtonTitle:@"取消" otherButtonTitles:@[@"继续"] tapBlock:^(UIAlertView * _Nonnull alertView, NSInteger buttonIndex) {
+            if (buttonIndex == 1) {
+                @strongify(self);
+                  [self goToFinishRepair];
+            }
+        }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7BD9FFA6-227D-4251-8DE7-6E5652F91C7B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ys_alertView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ys_alertView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
