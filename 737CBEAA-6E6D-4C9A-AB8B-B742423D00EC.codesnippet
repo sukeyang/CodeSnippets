@@ -3,27 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_alertView</string>
+	<string>ys_https</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@weakify(self);
-[UIAlertView showWithTitle:@"提示" message:@"设备维修数量与报修数量不符，是否继续？" cancelButtonTitle:@"取消" otherButtonTitles:@[@"继续"] tapBlock:^(UIAlertView * _Nonnull alertView, NSInteger buttonIndex) {
-            if (buttonIndex == 1) {
-                @strongify(self);
-                  [self goToFinishRepair];
-            }
-        }];</string>
+	<string>#ifdef  kOpenHttps
+     [JSPatch setupHttps];
+#else
+    
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7BD9FFA6-227D-4251-8DE7-6E5652F91C7B</string>
+	<string>737CBEAA-6E6D-4C9A-AB8B-B742423D00EC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ys_alertView</string>
+	<string>ys_https</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ys_alertView</string>
+	<string>ys_https</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
