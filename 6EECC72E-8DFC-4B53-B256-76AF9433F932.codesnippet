@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_type</string>
+	<string>ys_typedef</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
@@ -17,11 +17,11 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6EECC72E-8DFC-4B53-B256-76AF9433F932</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>typedef</string>
+	<string>ys_typedef</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>typedef</string>
+	<string>ys_typedef</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
