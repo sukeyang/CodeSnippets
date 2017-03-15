@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ys_apiConfig</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>     NSMutableDictionary *dict = [@{@"userKey":mLoginModel.user_token} mutableCopy];
+    @weakify(self);
+    self.mNetAPI.parameters = dict;
+    [self.mNetAPI startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest *request) {
+        NSDictionary *responseObject = (NSDictionary *)request.responseJSONObject;
+        @strongify(self);
+        if ([responseObject[@"resultFlag"] isEqual:@"1"]) {
+            self.userModel.mobile = content;
+            NSData *data  = [NSKeyedArchiver archivedDataWithRootObject:self.userModel];
+            [CommonTools setDataValueForConfigurationKey:UserModel withValue:data];
+            [MBProgressHUD showSuccess:@"修改成功!" toView:self.view ];
+            model.titleValue = _userModel.mobile;
+            [self.PGOTableView reloadData];
+        } else {
+             AppShowTipInfo(responseObject[@"message"]);
+        }
+    } failure:^(__kindof YTKBaseRequest *request) {
+         AppRequsetFailed(request.responseJSONObject);
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>97F09620-907D-4322-8137-0206937170D5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ys_apiConfig</string>
+	<key>IDECodeSnippetTitle</key>
+	<string> AppShowTipInfo(responseObject[@"message"]);</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

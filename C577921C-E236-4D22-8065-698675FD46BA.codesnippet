@@ -3,23 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_disAfter</string>
+	<string>ys_APi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>   dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(&lt;#delayInSeconds#&gt; * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        &lt;#code to be executed after a specified delay#&gt;
-    });</string>
+	<string>@property (strong, nonatomic) ChangeInfoAPI *mNetAPI;
+- (PGNetWorkTool *)mNetAPI {
+    if (_mNetAPI) {
+        return _mNetAPI;
+    }
+    _mNetAPI = [[ChangeInfoAPI alloc] init];
+    return _mNetAPI;
+}
+
+- (void)dealloc {
+    [_mNetAPI httpRelease];
+    _mNetAPI = nil;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>98298135-F5C6-4952-A2AC-DD86A3C79089</string>
+	<string>C577921C-E236-4D22-8065-698675FD46BA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ys_disAfter</string>
+	<string>ys_APi</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ys_disAfter</string>
+	<string>ys_APi</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
