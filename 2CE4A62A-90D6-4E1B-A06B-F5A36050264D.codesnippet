@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ys_dealloc</string>
+	<string>ys_constString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc {
-    NSLog(@"----%@",[self class]);
-}</string>
+	<string>FOUNDATION_EXPORT NSString * const kNotificationCenterReLogIn;
+NSString * const kNotificationCenterReLogIn = @"ReLogIn";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18403243-7C03-4221-9EF0-FAFEDC5E3A27</string>
+	<string>2CE4A62A-90D6-4E1B-A06B-F5A36050264D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ys_dealloc</string>
+	<string>ys_constString</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ys_dealloc</string>
+	<string>ys_constString</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
